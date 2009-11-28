@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Git Parable
+categories: ['post']
 ---
 
 h1. {{ page.title }}
