@@ -14,7 +14,7 @@ layout: nil
    <email>tom@mojombo.com</email>
  </author>
 
- {% for post in site.posts %}
+ {% for post in site.categories.blog %}
  <entry>
    <title>{{ post.title }}</title>
    <link href="http://tom.preston-werner.com{{ post.url }}"/>
