@@ -7,7 +7,14 @@ title: JuiceKit
     <tr>
         <td style="width: 700px">
 <div id="home">
-    <h2>JuiceKit<span style="text-transform: uppercase; font-size: 75%; color; #999999">A Graphical approach to visualization</span></h2>
+    <h1>JuiceKit <span style="text-transform: uppercase; font-size: 75%; color; #999999">A Graphical approach to visualization</span></h1>
+    
+    <p>Protovis composes custom views of data with simple marks such as bars and dots. Unlike low-level graphics libraries that quickly become tedious for visualization, Protovis defines marks through dynamic properties that encode data, allowing inheritance, scales and layouts to simplify construction.</p>
+    
+    <p>Protovis is free and open-source, provided under the BSD License. It uses JavaScript and SVG for web-native visualizations; no plugin required (though you will need a modern web browser)! Although programming experience is helpful, Protovis is mostly declarative and designed to be learned by example.</p>
+
+    <p>This project is led by Mike Bostock and Jeff Heer of the Stanford Visualization Group. We welcome your contributions and suggestions.</p>
+    
   <h2>Blog Posts</h2>
   <ul class="posts">
     {% for post in site.categories.blog %}
@@ -15,7 +22,7 @@ title: JuiceKit
     {% endfor %}
   </ul>
 
-  <h2>Demos</h2>
+  <h2>What's new?</h2>
   <ul class="posts">
     {% for post in site.categories.demos %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>

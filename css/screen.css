@@ -105,6 +105,7 @@ ul.posts {
 
   .site .title a:hover {
     color: black;
+    text-decoration: underline;
   }
 
   .site .title a.extra {
@@ -115,6 +116,19 @@ ul.posts {
 
   .site .title a.extra:hover {
     color: black;
+    text-decoration: underline;
+  }
+
+  .site .title a.download {
+    background-color: #fc0;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    margin-left: 1em;
+  }
+
+  .site .title a.download:hover {
+    text-decoration: underline;
   }
 
   .site .meta {
