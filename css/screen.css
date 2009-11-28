@@ -25,11 +25,13 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "ff-mach-condensed-web-pro-1","ff-mach-condensed-web-pro-2", Georgia;
   font-size: 100%;
-}
-
-h1 {
   margin-bottom: 1em;
 }
+h1 { font-size: 180%; }
+h2 { font-size: 150%; }
+h3 { font-size: 130%; }
+h4 { font-size: 120%; }
+h5 { font-size: 110%; }
 
 p {
   margin: 1em 0;
@@ -94,6 +96,7 @@ ul.posts {
 }
 
   .site .title a {
+    font-family: "ff-mach-condensed-web-pro-1","ff-mach-condensed-web-pro-2", Georgia;
     color: #a00;
     text-decoration: none;
   }
