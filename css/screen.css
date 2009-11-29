@@ -28,11 +28,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
   margin-bottom: 1em;
 }
-h1 { font-size: 200%; }
-h2 { font-size: 160%; }
-h3 { font-size: 130%; }
-h4 { font-size: 120%; }
-h5 { font-size: 110%; }
+h1 { font-size: 220%; }
+h2 { font-size: 170%; }
+h3 { font-size: 140%; }
+h4 { font-size: 125%; }
+h5 { font-size: 115%; }
 
 p {
   margin: 1em 0;
