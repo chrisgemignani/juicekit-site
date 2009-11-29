@@ -56,8 +56,15 @@ table {
 }
 
 ul {
-    margin-left: 50px;
+    margin-left: 40px;
 }
+
+span.note {
+    text-transform: uppercase;
+    font-size: 70%;
+    color #bbbbbb;
+}
+
 
 /*****************************************************************************/
 /*
