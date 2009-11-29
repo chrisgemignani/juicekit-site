@@ -1,0 +1,26 @@
+---
+layout: default
+title: JuiceKit
+---
+
+<table>
+    <tr>
+        <td style="width: 50%; padding-right: 20px; vertical-align: top">
+            <h1>Demos with source code available</h1>
+                {% for post in site.categories.demos %}
+                  <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+                {% endfor %}
+            
+        </td>
+        
+        <td style="width: 50%; padding-right: 20px; vertical-align: top">
+            <h1>Demos with source code not yet available<br/><span style="text-transform: uppercase; font-size: 70%; color: #cccccc">Some projects are using unreleased or commercial code</span></h1>
+                {% for post in site.categories.demos %}
+                  <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+                {% endfor %}
+            
+            
+        </td>
+
+    </tr>
+</table>
