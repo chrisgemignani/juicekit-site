@@ -26,6 +26,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "ligurino-condensed-1","ligurino-condensed-2", "garagier-1","garagier-2", Georgia;
   font-weight: normal;
   font-size: 100%;
+  margin-top: 1em;
   margin-bottom: 1em;
 }
 h1 { font-size: 220%; }
