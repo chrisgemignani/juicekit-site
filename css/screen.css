@@ -60,7 +60,7 @@ ul {
 }
 
 span.note {
-    text-transform: uppercase;
+    text-transform: lowercase;
     font-size: 70%;
     color: #bbbbbb !important;
 }
