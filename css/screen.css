@@ -17,13 +17,13 @@ html, body {
 
 body {
   background-color: white;
-  font: 13.34px "HelveticaNeue-Light", helvetica, arial, clean, sans-serif;
+  font: 13.34px Georgia, "HelveticaNeue-Light", helvetica, arial, clean, sans-serif;
   *font-size: small;
   text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "garagier-1","garagier-2", Georgia;
+  font-family: "ligurino-condensed-1","ligurino-condensed-2", "garagier-1","garagier-2", Georgia;
   font-weight: normal;
   font-size: 100%;
   margin-bottom: 1em;
@@ -98,7 +98,7 @@ ul.posts {
 }
 
   .site .title a {
-    font-family: "garagier-1","garagier-2", Georgia;
+    font-family: "ligurino-condensed-1","ligurino-condensed-2", "garagier-1","garagier-2", Georgia;
     color: #a00;
     text-decoration: none;
   }
