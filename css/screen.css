@@ -66,6 +66,10 @@ span.note {
     font-size: 70%;
     color: #bbbbbb !important;
 }
+.quiet {
+    font-size: 90%;
+    color: #bbbbbb;
+}
 
 
 /*****************************************************************************/
